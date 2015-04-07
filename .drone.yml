@@ -7,6 +7,8 @@ script:
   - bundle exec rspec spec
 services:
   - postgres
+cache:
+  - /tmp/bundler
 notify:
   email:
     recipients:
