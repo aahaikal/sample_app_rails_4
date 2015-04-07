@@ -7,3 +7,9 @@ script:
   - bundle exec rspec spec
 services:
   - postgres
+notify:
+  email:
+    recipients:
+      - alamn.haikal@kipusystems.com
+    on_success: true
+    on_failure: true
