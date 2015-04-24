@@ -13,9 +13,10 @@ script:
 services:
   - postgres
 notify:
-  email:
-    recipients:
-      - alan.haikal@kipusystems.com
-      - alanhaikal@gmail.com
+  flowdock:
+    token: "2d165fe8bdbac41933a9db3f36a24e9a"
+    source: "CI"
+    tags: "drone"
+    on_started: false
     on_success: true
     on_failure: true
