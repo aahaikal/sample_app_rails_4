@@ -1,4 +1,5 @@
 # Ruby on Rails Tutorial: sample application
+[![Build Status](http://maple.kipuworks.com:9000/api/badge/github.com/aahaikal/sample_app_rails_4/status.svg?branch=master)](http://maple.kipuworks.com:9000/github.com/aahaikal/sample_app_rails_4)
 
 This is the sample application for
 [*Ruby on Rails Tutorial: Learn Web Development with Rails*](http://railstutorial.org/)
