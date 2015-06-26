@@ -20,4 +20,4 @@ notify:
     tags: "drone"
     on_started: false
     on_success: true
-    on_failure: true
+    on_failure: true 
